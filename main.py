@@ -15,7 +15,7 @@ app = FastAPI(title="Skin Diagnosis AI API")
 
 # 1. Tải mô hình YOLOv8
 try:
-    yolo_model = YOLO("./models/best.pt")
+    yolo_model = YOLO("best.pt")
     print("✅ YOLOv8 model loaded successfully.")
 except Exception as e:
     print(f"❌ Error loading YOLOv8 model: {e}")
@@ -23,8 +23,8 @@ except Exception as e:
 
 # 2. Tải mô hình Phân loại (Pipeline) và Label Encoder
 try:
-    classification_pipeline = joblib.load("./models/acne_diagnosis_pipeline.joblib")
-    label_encoder = joblib.load("./models/label_encoder.joblib")
+    classification_pipeline = joblib.load("acne_diagnosis_pipeline.joblib")
+    label_encoder = joblib.load("label_encoder.joblib")
     print("✅ Classification pipeline and encoder loaded successfully.")
 except Exception as e:
     print(f"❌ Error loading classification model: {e}")
