@@ -1,0 +1,38 @@
+{
+  "blackheads": {
+    "display_name": "Mụn đầu đen (Blackheads)",
+    "description": "Là dạng mụn không viêm (comedone mở), xảy ra khi lỗ chân lông bị tắc nghẽn bởi bã nhờn và tế bào sừng. Phần đầu tiếp xúc với không khí nên bị oxy hóa, tạo màu đen đặc trưng.",
+    "treatment": "Sử dụng acid salicylic (BHA) để làm sạch lỗ chân lông, retinoids để điều hòa sự sừng hóa. Tránh nặn để hạn chế viêm và thâm.",
+    "severity_text": "Mức độ: Nhẹ"
+  },
+  "whiteheads": {
+    "display_name": "Mụn đầu trắng (Whiteheads)",
+    "description": "Là dạng mụn không viêm (comedone kín), hình thành khi lỗ chân lông bị bít tắc hoàn toàn bởi bã nhờn và tế bào chết dưới lớp biểu bì da.",
+    "treatment": "Điều trị bằng BHA, retinoids để làm thông thoáng lỗ chân lông. Nên tẩy tế bào chết đều đặn và giữ vệ sinh da.",
+    "severity_text": "Mức độ: Nhẹ"
+  },
+  "papules": {
+    "display_name": "Mụn sẩn (Papules)",
+    "description": "Là dạng mụn viêm đặc trưng bởi các nốt nhỏ, đỏ, cứng, không có đầu mủ. Hình thành khi vi khuẩn P. acnes kích thích phản ứng viêm trong nang lông.",
+    "treatment": "Dùng Benzoyl Peroxide, retinoids hoặc kháng sinh bôi ngoài. Tránh nặn để ngăn ngừa thâm và sẹo.",
+    "severity_text": "Mức độ: Trung bình"
+  },
+  "pustules": {
+    "display_name": "Mụn mủ (Pustules)",
+    "description": "Là mụn viêm có đầu mủ trắng hoặc vàng, bao quanh bởi quầng đỏ. Thường là kết quả của nhiễm trùng do vi khuẩn và phản ứng viêm mạnh hơn papule.",
+    "treatment": "Sử dụng Benzoyl Peroxide, acid salicylic hoặc kháng sinh bôi. Không nên nặn để tránh lan viêm và tạo sẹo.",
+    "severity_text": "Mức độ: Trung bình"
+  },
+  "nodules": {
+    "display_name": "Mụn dạng nốt (Nodules)",
+    "description": "Là dạng mụn viêm nghiêm trọng, phát triển sâu dưới da, gây đau, thường lớn và cứng. Có nguy cơ cao để lại sẹo nếu không điều trị đúng cách.",
+    "treatment": "Cần điều trị bởi bác sĩ da liễu. Thường dùng isotretinoin đường uống hoặc kháng sinh mạnh theo toa.",
+    "severity_text": "Mức độ: Nặng"
+  },
+  "dark_spot": {
+    "display_name": "Vết thâm sau mụn (Post-inflammatory Hyperpigmentation - PIH)",
+    "description": "Không phải là mụn, mà là hệ quả của phản ứng viêm sau mụn, dẫn đến sự tăng sinh melanin khiến vùng da trở nên sẫm màu.",
+    "treatment": "Dùng sản phẩm chứa Vitamin C, Niacinamide, retinoids. Bảo vệ da khỏi tia UV bằng kem chống nắng để ngăn thâm nặng hơn.",
+    "severity_text": "Mức độ: Di chứng sau mụn"
+  }
+}
