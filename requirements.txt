@@ -1,0 +1,15 @@
+fastapi==0.115.14
+uvicorn==0.35.0
+scikit-learn==1.7.0
+joblib==1.5.1
+pandas==2.3.0
+numpy==2.3.1
+xgboost==3.0.2
+
+# YOLOv8 và các thư viện liên quan
+ultralytics==8.3.161
+torch==2.7.1
+torchvision==0.22.1
+
+# Thư viện hỗ trợ gửi/nhận file ảnh
+python-multipart==0.0.20
