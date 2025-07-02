@@ -52,7 +52,7 @@ def load_models():
 
     # Tải Label Encoder
     try:
-        models["label_encoder"] = joblib.load("./models/label_encoder.joblib")
+        models["label_encoder"] = joblib.load("label_encoder.joblib")
         print("✅ Label encoder loaded successfully.")
     except Exception as e:
         print(f"❌ Error loading label_encoder.joblib: {e}")
@@ -60,7 +60,7 @@ def load_models():
 
     # Tải Pipeline chẩn đoán
     try:
-        models["classification_pipeline"] = joblib.load("./models/acne_diagnosis_pipeline.joblib")
+        models["classification_pipeline"] = joblib.load("acne_diagnosis_pipeline.joblib")
         print("✅ Classification pipeline loaded successfully.")
     except Exception as e:
         print(f"❌ Error loading classification pipeline: {e}")
@@ -68,7 +68,7 @@ def load_models():
         
     # Tải mô hình YOLOv8
     try:
-        models["yolo_model"] = YOLO("./models/best.pt")
+        models["yolo_model"] = YOLO("best.pt")
         print("✅ YOLOv8 model loaded successfully.")
     except Exception as e:
         print(f"❌ Error loading YOLOv8 model: {e}")
